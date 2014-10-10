@@ -8,6 +8,5 @@ body {
 
 .test {
     position: absolute; top: 50%; left: 0; width: 100%; height: 46px; margin-top: -23px; font: 46px/46px 'tahoma'; color: #fff;
-    text-shadow: 0 0 10px 2px rgba(0, 0, 0, .75);
-
+    text-shadow: 0 0 10px rgba(0, 0, 0, .75);
 }
