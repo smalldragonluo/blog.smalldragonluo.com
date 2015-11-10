@@ -1,4 +1,7 @@
-.idea
-/out
-*.iml
-WEB-INF
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
