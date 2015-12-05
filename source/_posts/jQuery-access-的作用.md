@@ -1,7 +1,7 @@
 title: jQuery.access 的作用
 date: 2015-01-08 16:54
 tags:
- - JQuery
+ - jQuery
 categories: 
  - 前端技术
  - JavaScript
@@ -42,7 +42,7 @@ access: function(elems, fn, key, value, chainable, emptyGet, pass) {
           return exec.call(jQuery(elem), value);
         };
 
-        // 否则，fn上下文设为全部elements（jquery对象），在此处处理
+        // 否则，fn上下文设为全部elements（jQuery对象），在此处处理
       } else {
         fn.call(elems, value);
         fn = null;

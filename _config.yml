@@ -71,4 +71,6 @@ deploy:
   type: git
   repo: git@github.com:smalldragonluo/smalldragonluo.github.io.git
   branch: master
+#  repo: https://gitcafe.com/smalldragonluo/smalldragonluo.git
+#  branch: gitcafe-pages
   message: update
