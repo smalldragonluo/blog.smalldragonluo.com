@@ -3,9 +3,9 @@ date: 2014-07-22 17:34
 tags:
  - 缓动函数
  - 动画
+ - JavaScript
 categories: 
  - 前端技术
- - JavaScript
 toc: true
 description: 在这之前，大家应该了解了缓动函数（Easing Functions）的概念：动画的每一帧需要计算一次元素样式，如果样式改变则需要重绘屏幕。细一点讲，当我们每调用一次计时器函数，需要通过向缓动函数传入一些动画上下文变量，从而获取到元素的某个样式在当前帧合理的值。
 

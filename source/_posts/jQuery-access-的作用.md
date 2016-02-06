@@ -2,9 +2,9 @@ title: jQuery.access 的作用
 date: 2015-01-08 16:54
 tags:
  - jQuery
+ - JavaScript
 categories: 
  - 前端技术
- - JavaScript
 toc: true
 description: jQuery.access 为 attr， prop， css， html等方法提供通用的键值设置 / 读取方法
 

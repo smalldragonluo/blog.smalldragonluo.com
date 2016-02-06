@@ -5,7 +5,7 @@ tags:
  - 字符编码
 categories: 
  - 前端技术
- - JavaScript
+ - 计算机
 toc: true
 description: 最初，Internet上只有一种字符集——ANSI的ASCII字符集(American Standard Code for Information Interchange， 美国信息交换标准码），它使用7 bits来表示一个字符，总共表示128个字符，后来IBM公司在此基础上进行了扩展，用8bit来表示一个字符，总共可以表示256个字符，充分利用了一个字节所能表达的最大信息。
 
@@ -100,4 +100,4 @@ Unicode 是一个字符集，
 GB18030 向下兼容 GB2312/GBK。 
 GB18030 是中国所有非手持/嵌入式计算机系统的强制实施标准。
 
-[原文链接](http://fjzboy。blog。sohu。com/136319844。html)
+[原文链接](http://fjzboy。blog。sohu。com/136319844.html)

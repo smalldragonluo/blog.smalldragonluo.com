@@ -6,7 +6,6 @@ tags:
  - JavaScript
 categories: 
  - 前端技术
- - JavaScript
 toc: true
 description: JavaScript采用垃圾自动回收机制，运行时环境会自动清理不再使用的内存，因此javascript无需像C++等语言一样手动释放无用内存。
 

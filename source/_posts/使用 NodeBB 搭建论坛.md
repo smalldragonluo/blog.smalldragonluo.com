@@ -7,7 +7,8 @@ tags:
  - CentOS
  - Redis
  - Nginx
-categories: 前端技术
+categories:
+ - 前端技术
 toc: true
 description: NodeBB 是一个基于 Node.js 的开源论坛，Metro UI 十分精美，它有以下特点：按照类目，标签，最新等进行帖子分类...
 

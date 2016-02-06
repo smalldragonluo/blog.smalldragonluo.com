@@ -2,9 +2,9 @@ title: JavaScript 的原型及原型链
 date: 2013-10-22 22:29
 tags:
  - 原型
+ - JavaScript
 categories: 
  - 前端技术
- - JavaScript
 toc: true
 description: 许多人对JavaScript的原型及原型链仍感到困惑，网上的文章又大多长篇大论，令读者不明觉厉。本人小学时语文拿过全校第一名，我将用最简洁明了的文字介绍JavaScript的原型及原型链。
 

@@ -6,7 +6,7 @@ tags:
  - 移动端调试
 categories: 
  - 前端技术
- - 移动端调试
+ - 调试
 toc: true
 description: 个人的调试方式有这么几种： 1. Chrome Emulator 2. 手机端浏览器调试 3. 手机端 Chrome + Inspector 调试（或者其他工具） 4. 手淘 + Inspector 调试
 

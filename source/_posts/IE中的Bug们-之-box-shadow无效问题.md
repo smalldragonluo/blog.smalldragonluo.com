@@ -2,9 +2,9 @@ title: IE中的 Bug 们之 box-shadow 无效
 date: 2014-09-26 16:59
 tags:
  - box-shadow
+ - CSS
 categories: 
  - 前端技术
- - CSS
 description: 测试半小时，我终于捉住了这只Bug。
 
 ---

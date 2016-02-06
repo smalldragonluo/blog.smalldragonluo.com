@@ -5,7 +5,6 @@ tags:
  - JavaScript
 categories: 
  - 前端技术
- - JavaScript
 description: javascript采用原型继承的方式继承一个类（javascript没有类这个概念，暂时这么称呼吧），但一些使用过Java的程序员可能习惯使用经典的类继承，但javascript原生并不支持这种方式，因此需要手动实现。我是通过定义一个定义类的函数实现的，由于javascript没有访问修饰符，因此如果需要使用到private成员，请使用闭包。
 
 ---
