@@ -1,29 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d29629e-42fa-4bf1-9fe1-0d315033281e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/st.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/JQuery-选择器性能发现.md" afterPath="$PROJECT_DIR$/source/_posts/jQuery-选择器性能发现.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/maupassant" afterPath="$PROJECT_DIR$/themes/maupassant" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/IE中的Bug们-之-box-shadow无效问题.md" afterPath="$PROJECT_DIR$/source/_posts/IE中的Bug们-之-box-shadow无效问题.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/JavaScript 位运算笔记.md" afterPath="$PROJECT_DIR$/source/_posts/JavaScript 位运算笔记.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/JavaScript-实现动画插件.md" afterPath="$PROJECT_DIR$/source/_posts/JavaScript-实现动画插件.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/JavaScript-模拟-Java-类继承.md" afterPath="$PROJECT_DIR$/source/_posts/JavaScript-模拟-Java-类继承.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/JavaScript-的原型及原型链.md" afterPath="$PROJECT_DIR$/source/_posts/JavaScript-的原型及原型链.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/JavaScript-的垃圾回收与内存泄露.md" afterPath="$PROJECT_DIR$/source/_posts/JavaScript-的垃圾回收与内存泄露.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/Process-Killer 一个 Alfred Workflow.md" afterPath="$PROJECT_DIR$/source/_posts/Process-Killer 一个 Alfred Workflow.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/[转] UNICODE-与-UTF8，UTF16-的含义.md" afterPath="$PROJECT_DIR$/source/_posts/[转] UNICODE-与-UTF8，UTF16-的含义.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/maupassant/_config.yml" afterPath="$PROJECT_DIR$/themes/maupassant/_config.yml" />
+    <list default="true" id="1d29629e-42fa-4bf1-9fe1-0d315033281e" name="Default" comment="add&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/regeneratorRuntime-is-not-defined.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/一个简单的-JS-模板引擎.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/浅析上下文无关文法.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/浅析语法分析树.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/maupassant/layout/base.jade" afterPath="$PROJECT_DIR$/themes/maupassant/layout/base.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/jQuery-access-的作用.md" afterPath="$PROJECT_DIR$/source/_posts/jQuery-access-的作用.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scaffolds/post.md" afterPath="$PROJECT_DIR$/scaffolds/post.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/使用 NodeBB 搭建论坛.md" afterPath="$PROJECT_DIR$/source/_posts/使用 NodeBB 搭建论坛.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/博客迁移.md" afterPath="$PROJECT_DIR$/source/_posts/博客迁移.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/如何避免模块间的CSS冲突.md" afterPath="$PROJECT_DIR$/source/_posts/如何避免模块间的CSS冲突.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/安卓 UC 内核 WebView 调试.md" afterPath="$PROJECT_DIR$/source/_posts/安卓 UC 内核 WebView 调试.md" />
     </list>
     <ignored path="smalldragonluo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,24 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="一个简单的-JS-模板引擎.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/一个简单的-JS-模板引擎.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
+      <file leaf-file-name="base.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/maupassant/layout/base.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.5172415">
-              <caret line="69" column="60" selection-start-line="69" selection-start-column="60" selection-end-line="69" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4893616">
-              <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.21925926">
+              <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -77,7 +48,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/maupassant" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -233,20 +204,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smalldragonluo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smalldragonluo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -337,29 +294,37 @@
       <option name="number" value="Default" />
       <updated>1447131095011</updated>
     </task>
+    <task id="LOCAL-00001" summary="add&#10;">
+      <created>1454740409867</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1454740409867</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="795" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.55903274" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32859176" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55903274" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56330013" sideWeight="0.5024665" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32859176" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32859176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="10" y="305" width="1419" height="232" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -372,6 +337,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -424,13 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/maupassant/layout/base.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35555556">
-          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -516,13 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0921659">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15555556">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -676,16 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/浅析语法分析树.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/[转] UNICODE-与-UTF8，UTF16-的含义.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -720,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24444444">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62211984">
           <caret line="27" column="108" selection-start-line="27" selection-start-column="108" selection-end-line="27" selection-end-column="108" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50691247">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,12 +734,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17777778">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/浅析语法分析树.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25541794">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/一个简单的-JS-模板引擎.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.5172415">
+        <state vertical-scroll-proportion="0.0">
           <caret line="69" column="60" selection-start-line="69" selection-start-column="60" selection-end-line="69" selection-end-column="60" />
           <folding />
         </state>
@@ -806,8 +766,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4893616">
+        <state vertical-scroll-proportion="0.5555556">
           <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/maupassant/layout/base.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21925926">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
           <folding />
         </state>
       </provider>
