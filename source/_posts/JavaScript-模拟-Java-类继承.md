@@ -21,8 +21,8 @@ function merge(from, to){
   }
 }
 
-/*用于定义一个类
- *参数：构造函数，继承的父类， 属性， 静态属性， 是否为单例模式
+/* 用于定义一个类
+ * 参数：构造函数，继承的父类， 属性， 静态属性， 是否为单例模式
  */
 function defineClass(constructor, parent, properties, statics, isSingleton){
 
