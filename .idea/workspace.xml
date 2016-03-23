@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d29629e-42fa-4bf1-9fe1-0d315033281e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/greyshade/languages/zh-CN.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/greyshade/layout/_partial/comments.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/greyshade/layout/_partial/duoshuo.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/greyshade/source/css/duoshuo.styl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/Designed By smalldragonluo.md" afterPath="$PROJECT_DIR$/source/_posts/Designed-By-smalldragonluo.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/JavaScript 位运算笔记.md" afterPath="$PROJECT_DIR$/source/_posts/JavaScript-位运算笔记.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/Process-Killer 一个 Alfred Workflow.md" afterPath="$PROJECT_DIR$/source/_posts/Process-Killer-一个-Alfred-Workflow.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/使用 NodeBB 搭建论坛.md" afterPath="$PROJECT_DIR$/source/_posts/使用-NodeBB-搭建论坛.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/安卓 UC 内核 WebView 调试.md" afterPath="$PROJECT_DIR$/source/_posts/安卓-UC-内核-WebView-调试.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/CNAME" afterPath="$PROJECT_DIR$/source/CNAME" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/一个简单的-JS-模板引擎.md" afterPath="$PROJECT_DIR$/source/_posts/一个简单的-JS-模板引擎.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/浅析语法分析树.md" afterPath="$PROJECT_DIR$/source/_posts/浅析语法分析树.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/about/index.html" afterPath="$PROJECT_DIR$/source/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/greyshade/_config.yml" afterPath="$PROJECT_DIR$/themes/greyshade/_config.yml" />
     </list>
     <ignored path="smalldragonluo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,17 +79,17 @@
       <file leaf-file-name="head.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/greyshade/layout/_partial/head.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state vertical-scroll-proportion="-20.875">
+              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/greyshade/layout/_partial/header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5391705">
+            <state vertical-scroll-proportion="-14.625">
               <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <marker date="1458716863000" expanded="true" signature="227:240" placeholder="..." />
@@ -113,11 +98,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Node.js-子进程的使用场景.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/Node.js-子进程的使用场景.md">
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.41129032">
+                <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mathjax.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/greyshade/layout/_partial/mathjax.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/greyshade/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.75555557">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/_posts/JavaScript-实现动画插件.md" />
         <option value="$PROJECT_DIR$/source/_posts/JavaScript-的原型及原型链.md" />
         <option value="$PROJECT_DIR$/source/_posts/JavaScript-的垃圾回收与内存泄露.md" />
         <option value="$PROJECT_DIR$/source/_posts/jQuery-access-的作用.md" />
@@ -187,8 +197,9 @@
         <option value="$PROJECT_DIR$/themes/greyshade/layout/_partial/post.ejs" />
         <option value="$PROJECT_DIR$/source/_posts/Process-Killer-一个-Alfred-Workflow.md" />
         <option value="$PROJECT_DIR$/source/_posts/浅析语法分析树.md" />
-        <option value="$PROJECT_DIR$/themes/greyshade/_config.yml" />
         <option value="$PROJECT_DIR$/themes/greyshade/layout/_partial/header.ejs" />
+        <option value="$PROJECT_DIR$/source/_posts/Node.js-子进程的使用场景.md" />
+        <option value="$PROJECT_DIR$/themes/greyshade/_config.yml" />
       </list>
     </option>
   </component>
@@ -548,13 +559,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/regeneratorRuntime-is-not-defined.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43644717">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.182926">
@@ -586,24 +590,6 @@
             <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/Node.js-子进程的使用场景.md">
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.35828024">
-            <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37777779">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -939,22 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/greyshade/layout/_partial/head.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/greyshade/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/Process-Killer-一个-Alfred-Workflow.md">
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
@@ -979,11 +949,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/greyshade/layout/_partial/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5391705">
+        <state vertical-scroll-proportion="-14.625">
           <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding>
             <marker date="1458716863000" expanded="true" signature="227:240" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/greyshade/layout/_partial/mathjax.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/greyshade/layout/_partial/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.875">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/Node.js-子进程的使用场景.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.41129032">
+            <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37777779">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/greyshade/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75555557">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
