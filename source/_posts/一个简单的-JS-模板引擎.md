@@ -113,73 +113,79 @@ function Tpl(tpl) {
 </script>
 
 <script>
-  setTimeout(function() {
+(function tmp(){
+  if(window.$) {
     function Tpl(tpl) {
-      // 关于传递 RegExp https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/split
-      var snippet = tpl.split(/(?=<%)|(%>)/);
-      var mCode = [
-        'var _tplSnippet = [];',
-        'with(_tplData) {'
-      ];
-    
-      for (var i = 0; i < snippet.length; ++i) {
-        if (typeof snippet[i] !== 'undefined' && snippet[i] !== '%>') {
-          if (snippet[i].substring(0, 2) === '<%') {
-            // 如果是表达式
-            if (snippet[i].charAt(2) === '=') {
-              mCode.push(snippet[i].replace(/<%=((\s|.)+)/g, '_tplSnippet.push($1);'));
-            } else {
-              // 如果是语句
-              mCode.push(snippet[i].replace(/<%((\s|.)+)/g, '$1'));
+          // 关于传递 RegExp https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/split
+          var snippet = tpl.split(/(?=<%)|(%>)/);
+          var mCode = [
+            'var _tplSnippet = [];',
+            'with(_tplData) {'
+          ];
+        
+          for (var i = 0; i < snippet.length; ++i) {
+            if (typeof snippet[i] !== 'undefined' && snippet[i] !== '%>') {
+              if (snippet[i].substring(0, 2) === '<%') {
+                // 如果是表达式
+                if (snippet[i].charAt(2) === '=') {
+                  mCode.push(snippet[i].replace(/<%=((\s|.)+)/g, '_tplSnippet.push($1);'));
+                } else {
+                  // 如果是语句
+                  mCode.push(snippet[i].replace(/<%((\s|.)+)/g, '$1'));
+                }
+              } else {
+                // 如果是 html
+                mCode.push('_tplSnippet.push(\'' + snippet[i].replace(/\\/g, '\\\\').replace(/'/g, '\\\'').replace(/\n/g, '\\n') + '\');');
+              }
             }
-          } else {
-            // 如果是 html
-            mCode.push('_tplSnippet.push(\'' + snippet[i].replace(/\\/g, '\\\\').replace(/'/g, '\\\'').replace(/\n/g, '\\n') + '\');');
           }
+        
+          mCode.push('}', 'return _tplSnippet.join(\'\');');
+        
+          return new Function('_tplData', mCode.join(''));
         }
-      }
-    
-      mCode.push('}', 'return _tplSnippet.join(\'\');');
-    
-      return new Function('_tplData', mCode.join(''));
-    }
-    
-    $('.J_Tpl').val($('.J_TplStore').html());
-    $('.J_Data').val($('.J_DataStore').html());
-    
-    $('.J_Compile').on('click', function(){
-      if(!JSON) {
-        $('.J_Result').text('你的浏览器没有 JSON 对象，请切换浏览器再试');
-        return;
-      }
-      
-      var compiler, data, t, cTime, rTime;
-      
-      try {
-        t = new Date().getTime();
-        compiler = Tpl($('.J_Tpl').val());
-        cTime = new Date().getTime() - t;
-      } catch(e) {
-        $('.J_Result').text('模板格式错误\n' + e.stack);
-        return;
-      }
-      
-      try {
-        data = JSON.parse($('.J_Data').val());
-      } catch(e) {
-        $('.J_Result').text('数据格式错误\n' + e.stack);
-        return;
-      }
-      
-      try {
-        t = new Date().getTime();
-        var html = compiler(data);
-        rTime = new Date().getTime() - t;
-        $('.J_Result').text('<!-- 创建渲染函数用时：' + cTime + ' ms, 渲染用时：' + rTime + ' ms -->\n' + html);
-      } catch(e) {
-        $('.J_Result').text('渲染错误\n' + e.stack);
-        return;
-      }
-    }).trigger('click');
-  }, 100);
+        
+        $('.J_Tpl').val($('.J_TplStore').html());
+        $('.J_Data').val($('.J_DataStore').html());
+        
+        $('.J_Compile').on('click', function(){
+          if(!JSON) {
+            $('.J_Result').text('你的浏览器没有 JSON 对象，请切换浏览器再试');
+            return;
+          }
+          
+          var compiler, data, t, cTime, rTime;
+          
+          try {
+            t = new Date().getTime();
+            compiler = Tpl($('.J_Tpl').val());
+            cTime = new Date().getTime() - t;
+          } catch(e) {
+            $('.J_Result').text('模板格式错误\n' + e.stack);
+            return;
+          }
+          
+          try {
+            data = JSON.parse($('.J_Data').val());
+          } catch(e) {
+            $('.J_Result').text('数据格式错误\n' + e.stack);
+            return;
+          }
+          
+          try {
+            t = new Date().getTime();
+            var html = compiler(data);
+            rTime = new Date().getTime() - t;
+            $('.J_Result').text('<!-- 创建渲染函数用时：' + cTime + ' ms, 渲染用时：' + rTime + ' ms -->\n' + html);
+          } catch(e) {
+            $('.J_Result').text('渲染错误\n' + e.stack);
+            return;
+          }
+        }).trigger('click');
+  } else {
+    setTimeout(function() {
+      tmp();    
+    }, 16.7);
+  }
+})();
 </script>

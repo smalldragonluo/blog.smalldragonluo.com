@@ -4,7 +4,7 @@
 
 # Site
 title: smalldragonluo
-subtitle: I'm not single, I'm solo.
+subtitle: 不卑不亢就是亢
 description: 骆小龙的博客
 author: smalldragonluo
 language:
@@ -69,7 +69,7 @@ feed:
   hub:
 
 ## Themes: http://hexo.io/themes/
-theme: maupassant
+theme: greyshade
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

@@ -5,8 +5,8 @@ tags:
 categories: 
  - 前端技术
  - 实用工具
-description: 
----
+description: Alfred 是一个 Mac 上的获奖应用，可以通过快捷键和关键字提高你的效率，除此之外，还可以高效地搜索本地和网络，通过 Powerpack 自定义动作控制你的电脑。回到正题，Process-Killer 是一个我编写的 Alfred 插件（其准确的定义应该是 **customised actions**），功能是根据你输入的进程名称或者 PID 或者端口号结束对应进程。
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [Alfred](https://www.alfredapp.com/) 是一个 Mac 上的效率工具，官网对其的定义是：
 > Alfred is an award-winning app for Mac OS X which boosts your efficiency with hotkeys and keywords. Search your Mac and the web effortlessly, and control your Mac using customised actions with the Powerpack.
