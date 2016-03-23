@@ -1,0 +1,49 @@
+{
+  "name": "hexo-theme-greyshade",
+  "version": "0.0.2",
+  "private": false,
+  "dependencies": {},
+  "description": "Ported from Octopress Theme Greyshade to Hexo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuklly/hexo-theme-greyshade.git"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "greyshade"
+  ],
+  "author": {
+    "name": "Nuk"
+  },
+  "license": "MIT",
+  "_id": "hexo-theme-greyshade@0.0.2",
+  "dist": {
+    "shasum": "865faccffde319b10830e4e4dc67b22ef37d9bbf",
+    "size": 237723,
+    "noattachment": false,
+    "key": "hexo-theme-greyshade/-/hexo-theme-greyshade-0.0.2.tgz",
+    "tarball": "http://registry.npm.alibaba-inc.com/hexo-theme-greyshade/download/hexo-theme-greyshade-0.0.2.tgz"
+  },
+  "_npmVersion": "1.1.63",
+  "_npmUser": {
+    "name": "nuklly",
+    "email": "nuklly@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "nuklly",
+      "email": "nuklly@gmail.com"
+    }
+  ],
+  "directories": {},
+  "publish_time": 1381034324913,
+  "_cnpm_publish_time": 1381034324913,
+  "_shasum": "865faccffde319b10830e4e4dc67b22ef37d9bbf",
+  "_resolved": "http://registry.npm.alibaba-inc.com/hexo-theme-greyshade/download/hexo-theme-greyshade-0.0.2.tgz",
+  "_from": "hexo-theme-greyshade@*"
+}

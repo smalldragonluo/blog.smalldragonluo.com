@@ -1,0 +1,34 @@
+menu:
+  Home: /
+  Archives: /archives
+  page:
+    归档: archives
+    关于我: about
+
+excerpt_link: Continue →
+
+mathjax: true
+fancybox: true
+
+social:
+  facebook: true
+  github: true
+  rss: true
+
+facebook:
+  username: xiaolong.luo.77
+
+github:
+  username: smalldragonluo
+
+addit:
+  facebook: false
+  twitter: false
+  gplus: false
+  pinit: false
+  publid:
+
+duoshuo: smalldragonluo
+
+
+

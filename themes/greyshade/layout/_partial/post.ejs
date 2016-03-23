@@ -1,0 +1,9 @@
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <%- partial('article', {item: item, index: index})%>
+</article>
+<% if(!index) { %>
+  <!--<\%- partial('post/sharing') %\>-->
+  <% if(theme.duoshuo) { %>
+  <%- partial('comments') %>
+  <% } %>
+<% } %>
