@@ -4,9 +4,9 @@ html
   height: 100%
 
 body
-  background #3D4349
-  font-family "Open Sans", "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif
-  font-size 13px
+  background #fff
+  font-family "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-size 16px
   height 100%
   color #333
 
@@ -23,8 +23,9 @@ body
   #main-nav
     .aboutme
       line-height 1.2em
-      color color-gray02
+      color #fff
       margin-top 10px
+      opacity 0.7
     ul
       li
         font-size 15px
@@ -65,8 +66,8 @@ body
     position absolute
     right 0
     min-height 100%
-    width 77%
-    background whitesmoke
+    width 80%
+    background #fff
     #banner
       width 100%
       small
@@ -85,7 +86,7 @@ body
             margin-left 0px
           .entry-content
             margin-left 0px
-            line-height 1.5em
+            line-height 1.7em
             .more-link
               padding-left 20px
               &:before
@@ -99,7 +100,8 @@ body
               font-size 1.3em
               color #574C4C
               border-bottom none
-            h2::before
+            h2:
+            :before
               border-bottom none
             blockquote
               border-left 5px solid greyshade
@@ -139,11 +141,14 @@ body
     footer
       width 100%
   .left-col:hover
-    opacity 1
+    //opacity 1
   .left-col
     width 23%
     position fixed
-    opacity .3
+    //opacity .3
+    background-image url(/assets/n752.jpg)
+    background-position left
+    background-size cover
     -webkit-transition all .2s ease-in
     -moz-transition all .2s ease-in
     -o-transition all .2s ease-in
@@ -163,10 +168,15 @@ body
           -moz-border-radius 50%
           -webkit-border-radius 50%
       a
-        color #EFEFEF
+        opacity 0.8
+        color #fff
         text-shadow 0 1px #333
+        -webkit-transition all 0.3s
+        -moz-transition all 0.3s
+        -o-transition all 0.3s
+        transition all 0.3s
       a:hover
-        color greyshade
+        opacity 1
       #sub-nav
         margin-top 10px
         .search::before
@@ -181,7 +191,8 @@ body
     .meta
       line-height 1.5em
       margin-top 0
-      span::before
+      span:
+      :before
         padding-right 0
 
 a
@@ -192,7 +203,7 @@ a:hover
 
 body
   @media screen and (max-width: 1040px)
-      margin 0 0
+    margin 0 0
 
 @media screen and (max-width: 700px)
   .container
@@ -210,11 +221,11 @@ body
         #sub-nav
           display block
         #main-nav
-            ul
-              display block
-              li
-                display inline
-                margin-right 10px
+          ul
+            display block
+            li
+              display inline
+              margin-right 10px
     .mid-col
       float none
       width 100%

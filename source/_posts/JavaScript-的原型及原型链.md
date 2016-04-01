@@ -48,7 +48,7 @@ obj.b; //2
 
 有图
 
-![](http://static.oschina.net/uploads/space/2013/1022/215445_09Zx_992034.png)
+![](/assets/215445_09Zx_992034.png)
 
 解释
 

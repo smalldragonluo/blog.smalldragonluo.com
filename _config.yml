@@ -75,8 +75,8 @@ theme: greyshade
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:smalldragonluo/smalldragonluo.github.io.git
-  branch: master
-#  repo: https://gitcafe.com/smalldragonluo/smalldragonluo.git
-#  branch: gitcafe-pages
+#  repo: git@github.com:smalldragonluo/smalldragonluo.github.io.git
+#  branch: master
+  repo: https://git.coding.net/smalldragonluo/smalldragonluo.git
+  branch: coding-pages
   message: update
