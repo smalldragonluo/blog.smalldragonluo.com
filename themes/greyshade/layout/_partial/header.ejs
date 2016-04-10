@@ -26,6 +26,10 @@
 </nav><!-- main-nav -->
 <nav id="sub-nav">
   <div class="social">
+    <% if(theme.social.weibo) { %>
+      <a class="weibo" href="http://weibo.com/u/<%- theme.weibo.userid %>"
+         title="weibo">weibo</a>
+    <% } %>
     <% if(theme.social.facebook) { %>
       <a class="facebook" href="https://www.facebook.com/<%- theme.facebook.username %>"
          title="Facebook">Facebook</a>

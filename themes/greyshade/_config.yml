@@ -11,9 +11,13 @@ mathjax: false
 fancybox: true
 
 social:
+  weibo: true
   facebook: true
   github: true
   rss: true
+
+weibo:
+  userid: 2361837077
 
 facebook:
   username: xiaolong.luo.77
