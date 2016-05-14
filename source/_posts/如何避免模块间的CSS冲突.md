@@ -21,15 +21,17 @@ description: 在最近的推荐模块改版中，遇到了一个模块之间的�
 
 事件的起因就是推荐模块的图标样式被页面的另一个模块覆写了，添加了 padding-left： 20px; 所用的图标 class 为 icon
 
-![](http://static.oschina.net/uploads/space/2015/0605/220524_Xrxf_992034.png)
+![](/assets/220524_Xrxf_992034.png)
+
+![](/assets/220702_FBGU_992034.png)
 
 另一个模块定义了 .icon 样式
 
-![](http://static.oschina.net/uploads/space/2015/0605/220836_0KQx_992034.png)
+![](/assets/220836_0KQx_992034.png)
 
 仔细一看，原来是收藏夹页面的基础样式，看来是自己对页面样式环境不熟悉所致。顺便，我又查看了另一个页面，发现也有类似css样式
 
-![](http://static.oschina.net/uploads/space/2015/0605/220949_z4X4_992034.png)
+![](/assets/220949_z4X4_992034.png)
 
 可想而知，如果以后要在其他页面编写区块，还会遇到这种问题。
 
@@ -56,7 +58,7 @@ description: 在最近的推荐模块改版中，遇到了一个模块之间的�
 
 如某网站头部的html结构
 
-![](http://static.oschina.net/uploads/space/2015/0605/221234_2V5I_992034.png)
+![](/assets/221234_2V5I_992034.png)
 
 这样既保证了不会影响内部模块，也不会被内部模块的派生式样式所影响。虽然这样带来了一定的html代码量增加，不过却是值得的，因为你没办法保证模型内部不会出现class为head的元素，所以你不能像模块开发者一样使用：
 
