@@ -32,7 +32,5 @@ addit:
   pinit: false
   publid:
 
-duoshuo: smalldragonluo
-
-
-
+#duoshuo: smalldragonluo
+disqus: smalldragonluo
