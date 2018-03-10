@@ -1,34 +1,15 @@
-<% if(theme.duoshuo) { %>
-<div class="ds-thread" data-thread-key="<%= page.path %>" data-title="<%= page.title %>"
-     data-url="<%= page.permalink %>" data-author-key="1"></div>
-<% } %>
+<div id="commentit"></div>
+<script type="text/javascript">
+  var commentitUsername = 'smalldragonluo';
+  var commentitRepo = 'smalldragonluo/blog.smalldragonluo.com';
+  var commentitPath = location.pathname;
 
-<% if(theme.disqus) { %>
-<div id="disqus_thread"></div>
-
-<!--<script>-->
-  <!--var disqus_config = function() {-->
-    <!--this.page.url = 'http://blog.smalldragonluo.com' + location.pathname;  // Replace PAGE_URL with your page's canonical URL variable-->
-    <!--this.page.identifier = location.pathname; // Replace PAGE_IDENTIFIER with your page's unique identifier variable-->
-  <!--};-->
-
-  <!--(function() { // DON'T EDIT BELOW THIS LINE-->
-    <!--var d = document, s = d.createElement('script');-->
-    <!--s.src = 'https://<%= theme.disqus %>.disqus.com/embed.js';-->
-    <!--s.setAttribute('data-timestamp', +new Date());-->
-    <!--(d.head || d.body).appendChild(s);-->
-  <!--})();-->
-<!--</script>-->
-<script>
-  var disqus_shortname = 'smalldragonluo';
-  var disqus_url = 'http://blog.smalldragonluo.com' + location.pathname;
-
+  /** DON'T EDIT FOLLOWING LINES **/
   (function() {
-    var dsq = document.createElement('script');
-    dsq.type = 'text/javascript';
-    dsq.async = true;
-    dsq.src = '//go.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    var commentit = document.createElement('script');
+    commentit.type = 'text/javascript';
+    commentit.async = true;
+    commentit.src = 'https://commentit.io/static/embed/dist/commentit.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(commentit);
   })();
 </script>
-<% } %>
