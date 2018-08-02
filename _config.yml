@@ -78,6 +78,7 @@ deploy:
   type: git
 #  repo: git@github.com:smalldragonluo/smalldragonluo.github.io.git
 #  branch: master
-  repo: git@git.coding.net:smalldragonluo/blog.smalldragonluo.com.git
+#  repo: git@git.coding.net:smalldragonluo/blog.smalldragonluo.com.git
+  repo: https://smaldragonluo%40gmail.com:66457315@git.coding.net/smalldragonluo/blog.smalldragonluo.com.git
   branch: coding-pages
   message: update
