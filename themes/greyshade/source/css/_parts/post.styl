@@ -5,6 +5,7 @@
     margin-left 200px
     @media screen and (max-width: 800px)
       margin-left 0
+
   .meta
     position absolute
     top 85px
@@ -16,6 +17,7 @@
       margin-top 15px
       position static
       width auto
+
     a
       link-colors(color-gray02, color-gray01)
       transition(0.3s)
@@ -23,6 +25,7 @@
     .date, .tags, .comments
       padding-left 30px
       position relative
+
       &:before
         color color-gray03
         font 1.3em font-icon
@@ -35,10 +38,13 @@
 
     .date:before
       content "\f073"
+
     .tags:before
       content "\f02c"
+
     .comments:before
       content "\f075"
+
   hr
     height 0
     margin-top 20px

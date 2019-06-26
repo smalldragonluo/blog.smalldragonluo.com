@@ -7,49 +7,63 @@ article
     padding-bottom 15px
   @media screen and (max-width: 600px)
     padding 15px 0
+
   h1.title
     margin-bottom: 20px
+
     a
       color color-gray01
 
   .entry-content
     line-height 2
     text-align justify
+
     a
       &:hover
         text-decoration underline
+
     .more-link
       display block
       margin-top 16px
       padding-left 30px
       position relative
+
       &:before
         content "\f061"
         font 1.3em font-icon
         line-height 1.6em
         position absolute
         left 0
+
     p, blockquote, ul, ol, dl, table, iframe, h1, h2, h3, h4, h5, h6, .video-container
       margin-top 24px
+
     ul, ol, dl
       margin-left 20px
+
       ul, ol, dl
         margin-top 0
+
     strong
       font-weight bold
+
     em
       font-style italic
+
     p
       margin-top 20px
+
     h2
       border-bottom 1px solid color-gray04
       position relative
+
       &:before
         content ""
         position absolute
         bottom -2px
         border-bottom 1px solid color-gray05
         width 100%
+
     img, video
       max-width 100%
       height auto
@@ -64,32 +78,46 @@ article
       //padding 0 30px 15px
       padding: 12px 20px
       margin-top 10px
+
       footer
         border-top none
         font-size 0.8em
         line-height 1
         margin 20px 0 0
         padding-top 0
+
         cite
           &:before
             content '—'
             color #ccc
             padding 0 0.5em
+
     iframe
       border none
+
     table
-      background color-gray04
-      border 1px solid color-gray03
-      border-spacing 0
-      margin-top 10px
-      th
-        background color-gray03
-        padding 0 15px
-      td
-        text-align center
-      tr
-        &:nth-of-type(2n)
-          background: #d5d5d5
+      margin-top: 20px
+      position: relative;
+      table-layout: fixed;
+      border-collapse: collapse;
+      border-spacing: 0;
+      word-wrap: break-word;
+      word-break: normal;
+      font-weight: 400;
+      box-sizing: border-box;
+      border: 1px solid #d9d9d9;
+      cursor: default;
+
+    th, td
+      text-align center
+      border: 1px solid #d9d9d9;
+      font-size: 14px;
+      white-space: normal;
+      word-wrap: break-word;
+      vertical-align: top;
+      padding: 4px 8px;
+      cursor: default;
+      line-height: 24px;
 
     .caption
       display block
@@ -97,6 +125,7 @@ article
       color color-gray02
       padding-left 25px
       position relative
+
       &:before
         content "\f040"
         color color-gray03
@@ -111,6 +140,7 @@ article
       padding-top 30px
       height 0
       overflow hidden
+
       iframe, object, embed
         position absolute
         top 0
@@ -119,6 +149,7 @@ article
         height 60%
         margin-top 0
         margin-left auto
+
 .share
   padding 15px 0
   border-shadow()
